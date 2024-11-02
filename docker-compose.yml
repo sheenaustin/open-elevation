@@ -1,0 +1,12 @@
+version: "3.3"
+
+services:
+  elevation_server:
+    build: .
+    container_name: elevation_server
+    ports:
+      - "9898:9898"
+    volumes:
+      - ./tif_files:/app/tif_files
+    environment:
+      - TIF_DIRECTORY=/app/tif_files
