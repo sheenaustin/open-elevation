@@ -1,6 +1,13 @@
 .git
-__pycache__
+__pycache__/
 *.pyc
 .env
 .DS_Store
-tif_files
+tif_files/
+.venv/
+dist/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.claude
